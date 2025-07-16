@@ -1,82 +1,74 @@
-\# Document Layout Understanding with LayoutLMv3
+Here’s a clean and improved version of your README file, formatted properly with markdown syntax and structured sections. It includes a placeholder for the demo GIF at the top, clarifies steps, and improves readability and consistency:
 
+---
 
+# 🧾 Document Layout Understanding with LayoutLMv3
 
-!\[Document Parsing Demo](demo.gif) <!-- Add a demo GIF later -->
+![Demo](demo.gif)
 
+<!-- Replace `demo.gif` with your actual path or link to the demo gif -->
 
+An end-to-end system for understanding the layout and structure of documents using the power of **LayoutLMv3**. This project enables structured extraction of elements like headers, questions, and answers from scanned documents and PDFs through a **FastAPI** backend and a **React** frontend.
 
-This project provides an end-to-end solution for document layout understanding using LayoutLMv3. It extracts structured information (headers, questions, answers, etc.) from documents through a FastAPI backend and React frontend.
+---
 
+## ✨ Features
 
+* 🧠 Fine-tuned LayoutLMv3 model for document layout understanding
+* 📄 Supports both image and PDF inputs
+* 🌐 RESTful API powered by FastAPI
+* ⚛️ Intuitive React-based frontend interface
+* 📊 Bounding box visualization for extracted entities
+* 🐳 Docker support for seamless deployment
 
-\## Features
+---
 
+## ⚙️ Installation
 
+### Backend Setup
 
-\- 🧠 Fine-tuned LayoutLMv3 model for document understanding
+1. Navigate to the backend folder and install Python dependencies:
 
-\- 📄 Supports images and PDF documents
+   ```bash
+   cd backend
+   pip install -r requirements.txt
+   ```
 
-\- 🌐 REST API with FastAPI backend
+2. Copy and configure environment variables:
 
-\- ⚛️ React-based frontend interface
+   ```bash
+   cp .env.example .env
+   ```
 
-\- 📊 Entity extraction with bounding box visualization
+---
 
-\- 🚀 Easy deployment with Docker
+### Frontend Setup
 
+1. Navigate to the frontend folder and install dependencies:
 
+   ```bash
+   cd frontend
+   npm install
+   ```
 
-\## Installation
+---
 
+## 🚀 Running the Application
 
+### Start Backend (FastAPI)
 
-\### Backend Setup
+From the `backend/` directory:
 
+```bash
+uvicorn api_service:app --reload --port 8000
+```
 
+### Start Frontend (React)
 
-1\. Install Python dependencies:
+From the `frontend/` directory:
 
-'''bash
-
-cd backend
-
-pip install -r requirements.txt
-
-
-
-2\. Set environment variables:
-
-cp .env.example .env
-
-
-
-\### Frontend Setup
-
-'''bash
-
-cd frontend
-
-npm install
-
-
-
-\## Running the Application
-
-
-
-\###Backend
-
-'''bash
-
-uvicorn api\_service:app --reload --port 8000
-
-
-
-\###Frontend
-
-'''bash
-
+```bash
 npm start
+```
 
+---
