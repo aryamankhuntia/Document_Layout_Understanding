@@ -13,7 +13,7 @@ class DocumentParser:
         self.model.to(self.device)
         self.model.eval()
 
-    def extract_text_block(self, image: Image.Image) -> List[Dict]:
+    def extract_text_blocks(self, image: Image.Image) -> List[Dict]:
         data = pytesseract.image_to_data(
             np.array(image),
             output_type=pytesseract.Output.DICT,
