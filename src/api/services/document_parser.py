@@ -27,7 +27,7 @@ class DocumentParser:
                     'text':data['text'][i],
                     'bbox':[
                         data['left'][i],
-                        data['right'][i],
+                        data['top'][i],
                         data['left'][i] + data['width'][i],
                         data['top'][i] + data['height'][i]
                     ]
@@ -88,7 +88,7 @@ class DocumentParser:
                     entities.setdefault(current_entity["type"],[]).append(current_entity)
                 current_entity={
                     "type":entity_type,
-                    "test": word,
+                    "text": word,
                     "bbox":box,
                     "confidence":1.0
                 }
