@@ -1,7 +1,9 @@
+__pycache__/
+.env
+.vscode/
 venv/
-data/raw/FUNSD
-data/processed/
-src/api/__pycache__
-src/api/routes/__pycache__
-src/api/schemas/__pycache__
-src/api/services/__pycache__
+node_modules/
+*.pyc
+.DS_Store
+*.log
+data/
