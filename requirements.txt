@@ -1,8 +1,9 @@
+fastapi
+uvicorn
 torch
-torchvision
 transformers
 pytesseract
 Pillow
-opencv-python
-pandas
+python-multipart
 python-dotenv
+pydantic
