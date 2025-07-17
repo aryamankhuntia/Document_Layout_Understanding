@@ -1,4 +1,4 @@
-# 🧾 Document Layout Understanding with LayoutLMv3
+# 🧾 Document Layout Understanding
 
 [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)](https://fastapi.tiangolo.com/) 
