@@ -1,25 +1,18 @@
-Here’s a clean and improved version of your README file, formatted properly with markdown syntax and structured sections. It includes a placeholder for the demo GIF at the top, clarifies steps, and improves readability and consistency:
-
----
-
 # 🧾 Document Layout Understanding with LayoutLMv3
 
-![Demo](demo.gif)
+![Demo](/screenshots/doclayout_demo.gif)
 
-<!-- Replace `demo.gif` with your actual path or link to the demo gif -->
-
-An end-to-end system for understanding the layout and structure of documents using the power of **LayoutLMv3**. This project enables structured extraction of elements like headers, questions, and answers from scanned documents and PDFs through a **FastAPI** backend and a **React** frontend.
+An end-to-end system for understanding the layout and structure of documents using the power of **LayoutLMv3**. This project enables structured extraction of elements like headers, questions, and answers from scanned documents and PDFs through an interactive user-friendly interface.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-* 🧠 Fine-tuned LayoutLMv3 model for document layout understanding
-* 📄 Supports both image and PDF inputs
-* 🌐 RESTful API powered by FastAPI
-* ⚛️ Intuitive React-based frontend interface
-* 📊 Bounding box visualization for extracted entities
-* 🐳 Docker support for seamless deployment
+- **Fine-tuned LayoutLMv3 model for document layout understanding**
+- **Supports both image and PDF inputs**
+- **RESTful API powered by FastAPI**
+- **Intuitive React-based frontend interface**
+- **Bounding box visualization for extracted entities**
 
 ---
 
