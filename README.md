@@ -1,8 +1,8 @@
 # 🧾 Document Layout Understanding with LayoutLMv3
 
-[![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/) 
-[![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://react.dev/)
+[![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)](https://fastapi.tiangolo.com/) 
+[![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)](https://react.dev/)
 
 ![Demo](/screenshots/doclayout_demo.gif)
 
