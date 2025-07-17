@@ -13,7 +13,9 @@ An end-to-end system for understanding the layout and structure of documents usi
 ## ✨ Key Features
 
 - **Fine-tuned LayoutLMv3 model for document layout understanding**
-- **Supports both image and PDF inputs**
+- **Supports both image and PDF inputs using PDF2Image**
+- **Uses Tesseract(OCR) and Detectron2 for Layout Understanding**
+- **Sentiment Analysis Techniques present for Header Distributions**
 - **RESTful API powered by FastAPI**
 - **Intuitive React-based frontend interface**
 - **Bounding box visualization for extracted entities**
